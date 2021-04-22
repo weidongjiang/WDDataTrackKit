@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/SensorsAnalyticsSDK/SensorsAnalyticsSDK.framework

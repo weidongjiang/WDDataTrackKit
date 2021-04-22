@@ -1,0 +1,6 @@
+framework module HTIOSDataTrack {
+  umbrella header "HTIOSDataTrack-umbrella.h"
+
+  export *
+  module * { export * }
+}

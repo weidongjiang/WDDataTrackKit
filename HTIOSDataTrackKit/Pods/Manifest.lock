@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HTIOSDataTrack (2.0.4):
+    - AFNetworking (= 3.1.0)
+    - FMDB (= 2.6.2)
+    - HTIOSDataTrack/no-arc (= 2.0.4)
+    - SensorsAnalyticsSDK
+  - HTIOSDataTrack/no-arc (2.0.4):
+    - AFNetworking (= 3.1.0)
+    - FMDB (= 2.6.2)
+    - SensorsAnalyticsSDK
+  - SensorsAnalyticsSDK (2.4.0):
+    - SensorsAnalyticsSDK/Core (= 2.4.0)
+  - SensorsAnalyticsSDK/Core (2.4.0)
+
+DEPENDENCIES:
+  - HTIOSDataTrack (from `https://git.corp.hetao101.com/teaching/commonsdk/htiosdatatrackkit.git`, tag `2.0.4`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FMDB
+    - SensorsAnalyticsSDK
+
+EXTERNAL SOURCES:
+  HTIOSDataTrack:
+    :git: https://git.corp.hetao101.com/teaching/commonsdk/htiosdatatrackkit.git
+    :tag: 2.0.4
+
+CHECKOUT OPTIONS:
+  HTIOSDataTrack:
+    :git: https://git.corp.hetao101.com/teaching/commonsdk/htiosdatatrackkit.git
+    :tag: 2.0.4
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HTIOSDataTrack: 1459052ae1dfd6fdf0d46349a56978dbea113e3b
+  SensorsAnalyticsSDK: 6053698ad6279d3e5438eada3d87f213186bdbd7
+
+PODFILE CHECKSUM: 45cf4fc1a21793b553342b47aa7f3521467258ce
+
+COCOAPODS: 1.10.1

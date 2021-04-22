@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HTIOSDataTrackKit' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HTIOSDataTrackKit
+
+  target 'HTIOSDataTrackKitTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HTIOSDataTrackKitUITests' do
+    # Pods for testing
+  end
+  pod 'HTIOSDataTrack', :git => 'https://git.corp.hetao101.com/teaching/commonsdk/htiosdatatrackkit.git', :tag => '2.0.4'
+
+end

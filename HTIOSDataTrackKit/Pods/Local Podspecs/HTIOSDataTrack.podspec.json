@@ -1,0 +1,39 @@
+{
+  "name": "HTIOSDataTrack",
+  "version": "2.0.4",
+  "summary": "-",
+  "homepage": "https://git.corp.hetao101.com/teaching/commonsdk/htiosdatatrackkit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "authors": "jiangweidong",
+  "source": {
+    "git": "https://git.corp.hetao101.com/teaching/commonsdk/htiosdatatrackkit.git",
+    "tag": "2.0.4"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "framework/DataTrack/HTDataTrack.h",
+    "framework/DataTrack/**/*.{h,m}",
+    "framework/DataTrack/**/**/*.{h,m}"
+  ],
+  "exclude_files": "framework/DataTrack/common/HTDataTrackReachability.{h,m}",
+  "dependencies": {
+    "FMDB": [
+      "2.6.2"
+    ],
+    "AFNetworking": [
+      "3.1.0"
+    ],
+    "SensorsAnalyticsSDK": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "requires_arc": false,
+      "source_files": "framework/DataTrack/common/HTDataTrackReachability.{h,m}"
+    }
+  ]
+}

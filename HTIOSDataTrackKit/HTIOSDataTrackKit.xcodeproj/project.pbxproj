@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FCC6451199B0EEB547D7241 /* Pods_HTIOSDataTrackKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86064DBC25905D12BD3C9B4 /* Pods_HTIOSDataTrackKitTests.framework */; };
+		4C4CFE2424DD4C8300C88DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CFE2324DD4C8300C88DB2 /* AppDelegate.m */; };
+		4C4CFE2724DD4C8300C88DB2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CFE2624DD4C8300C88DB2 /* SceneDelegate.m */; };
+		4C4CFE2A24DD4C8300C88DB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CFE2924DD4C8300C88DB2 /* ViewController.m */; };
+		4C4CFE2D24DD4C8300C88DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CFE2B24DD4C8300C88DB2 /* Main.storyboard */; };
+		4C4CFE2F24DD4C8600C88DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CFE2E24DD4C8600C88DB2 /* Assets.xcassets */; };
+		4C4CFE3224DD4C8600C88DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CFE3024DD4C8600C88DB2 /* LaunchScreen.storyboard */; };
+		4C4CFE3524DD4C8600C88DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CFE3424DD4C8600C88DB2 /* main.m */; };
+		4C4CFE3F24DD4C8700C88DB2 /* HTIOSDataTrackKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CFE3E24DD4C8700C88DB2 /* HTIOSDataTrackKitTests.m */; };
+		4C4CFE4A24DD4C8700C88DB2 /* HTIOSDataTrackKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CFE4924DD4C8700C88DB2 /* HTIOSDataTrackKitUITests.m */; };
+		FBC77DE0B3AFA1F73F67AB47 /* Pods_HTIOSDataTrackKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D4669C83B33B890F53A473 /* Pods_HTIOSDataTrackKit.framework */; };
+		FECEE71CF18DB6B89627DB9D /* Pods_HTIOSDataTrackKit_HTIOSDataTrackKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E35213E6E1DC6CE1A774D45 /* Pods_HTIOSDataTrackKit_HTIOSDataTrackKitUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4CFE3B24DD4C8700C88DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4CFE1724DD4C8300C88DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4CFE1E24DD4C8300C88DB2;
+			remoteInfo = HTIOSDataTrackKit;
+		};
+		4C4CFE4624DD4C8700C88DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4CFE1724DD4C8300C88DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4CFE1E24DD4C8300C88DB2;
+			remoteInfo = HTIOSDataTrackKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C44AD1DD87506C5603AF30 /* Pods-HTIOSDataTrackKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTIOSDataTrackKitTests.debug.xcconfig"; path = "Target Support Files/Pods-HTIOSDataTrackKitTests/Pods-HTIOSDataTrackKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		096627B0B8459E342672427F /* Pods-HTIOSDataTrackKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTIOSDataTrackKit.release.xcconfig"; path = "Target Support Files/Pods-HTIOSDataTrackKit/Pods-HTIOSDataTrackKit.release.xcconfig"; sourceTree = "<group>"; };
+		4C4CFE1F24DD4C8300C88DB2 /* 数据上报SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数据上报SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4CFE2224DD4C8300C88DB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C4CFE2324DD4C8300C88DB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C4CFE2524DD4C8300C88DB2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4C4CFE2624DD4C8300C88DB2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4C4CFE2824DD4C8300C88DB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C4CFE2924DD4C8300C88DB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C4CFE2C24DD4C8300C88DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C4CFE2E24DD4C8600C88DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C4CFE3124DD4C8600C88DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C4CFE3324DD4C8600C88DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4CFE3424DD4C8600C88DB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C4CFE3A24DD4C8700C88DB2 /* HTIOSDataTrackKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTIOSDataTrackKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4CFE3E24DD4C8700C88DB2 /* HTIOSDataTrackKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTIOSDataTrackKitTests.m; sourceTree = "<group>"; };
+		4C4CFE4024DD4C8700C88DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4CFE4524DD4C8700C88DB2 /* HTIOSDataTrackKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTIOSDataTrackKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4CFE4924DD4C8700C88DB2 /* HTIOSDataTrackKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTIOSDataTrackKitUITests.m; sourceTree = "<group>"; };
+		4C4CFE4B24DD4C8700C88DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAEF5052511ECA30086F09E /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5412232B5E2A1B0A7DEC3684 /* Pods-HTIOSDataTrackKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTIOSDataTrackKit.debug.xcconfig"; path = "Target Support Files/Pods-HTIOSDataTrackKit/Pods-HTIOSDataTrackKit.debug.xcconfig"; sourceTree = "<group>"; };
+		92D62F37F41F7FE329AE00B2 /* Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96BBB829EFFD165540CAE386 /* Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.release.xcconfig"; path = "Target Support Files/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E35213E6E1DC6CE1A774D45 /* Pods_HTIOSDataTrackKit_HTIOSDataTrackKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTIOSDataTrackKit_HTIOSDataTrackKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86064DBC25905D12BD3C9B4 /* Pods_HTIOSDataTrackKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTIOSDataTrackKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D502473BC8A413DDD5AC76DD /* Pods-HTIOSDataTrackKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTIOSDataTrackKitTests.release.xcconfig"; path = "Target Support Files/Pods-HTIOSDataTrackKitTests/Pods-HTIOSDataTrackKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5D4669C83B33B890F53A473 /* Pods_HTIOSDataTrackKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTIOSDataTrackKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4CFE1C24DD4C8300C88DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC77DE0B3AFA1F73F67AB47 /* Pods_HTIOSDataTrackKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CFE3724DD4C8700C88DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCC6451199B0EEB547D7241 /* Pods_HTIOSDataTrackKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CFE4224DD4C8700C88DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECEE71CF18DB6B89627DB9D /* Pods_HTIOSDataTrackKit_HTIOSDataTrackKitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4CFE1624DD4C8300C88DB2 = {
+			isa = PBXGroup;
+			children = (
+				4C4CFE2124DD4C8300C88DB2 /* HTIOSDataTrackKit */,
+				4C4CFE3D24DD4C8700C88DB2 /* HTIOSDataTrackKitTests */,
+				4C4CFE4824DD4C8700C88DB2 /* HTIOSDataTrackKitUITests */,
+				4C4CFE2024DD4C8300C88DB2 /* Products */,
+				546D085B684CBBE64810A3EF /* Pods */,
+				7BE5E7FC7634F6A230D732B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4CFE2024DD4C8300C88DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CFE1F24DD4C8300C88DB2 /* 数据上报SDK.app */,
+				4C4CFE3A24DD4C8700C88DB2 /* HTIOSDataTrackKitTests.xctest */,
+				4C4CFE4524DD4C8700C88DB2 /* HTIOSDataTrackKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4CFE2124DD4C8300C88DB2 /* HTIOSDataTrackKit */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CFE2224DD4C8300C88DB2 /* AppDelegate.h */,
+				4C4CFE2324DD4C8300C88DB2 /* AppDelegate.m */,
+				4C4CFE2524DD4C8300C88DB2 /* SceneDelegate.h */,
+				4C4CFE2624DD4C8300C88DB2 /* SceneDelegate.m */,
+				4C4CFE2824DD4C8300C88DB2 /* ViewController.h */,
+				4C4CFE2924DD4C8300C88DB2 /* ViewController.m */,
+				4C4CFE2B24DD4C8300C88DB2 /* Main.storyboard */,
+				4C4CFE2E24DD4C8600C88DB2 /* Assets.xcassets */,
+				4C4CFE3024DD4C8600C88DB2 /* LaunchScreen.storyboard */,
+				4C4CFE3324DD4C8600C88DB2 /* Info.plist */,
+				4C4CFE3424DD4C8600C88DB2 /* main.m */,
+			);
+			path = HTIOSDataTrackKit;
+			sourceTree = "<group>";
+		};
+		4C4CFE3D24DD4C8700C88DB2 /* HTIOSDataTrackKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CFE3E24DD4C8700C88DB2 /* HTIOSDataTrackKitTests.m */,
+				4C4CFE4024DD4C8700C88DB2 /* Info.plist */,
+			);
+			path = HTIOSDataTrackKitTests;
+			sourceTree = "<group>";
+		};
+		4C4CFE4824DD4C8700C88DB2 /* HTIOSDataTrackKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CFE4924DD4C8700C88DB2 /* HTIOSDataTrackKitUITests.m */,
+				4C4CFE4B24DD4C8700C88DB2 /* Info.plist */,
+			);
+			path = HTIOSDataTrackKitUITests;
+			sourceTree = "<group>";
+		};
+		546D085B684CBBE64810A3EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5412232B5E2A1B0A7DEC3684 /* Pods-HTIOSDataTrackKit.debug.xcconfig */,
+				096627B0B8459E342672427F /* Pods-HTIOSDataTrackKit.release.xcconfig */,
+				92D62F37F41F7FE329AE00B2 /* Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.debug.xcconfig */,
+				96BBB829EFFD165540CAE386 /* Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.release.xcconfig */,
+				00C44AD1DD87506C5603AF30 /* Pods-HTIOSDataTrackKitTests.debug.xcconfig */,
+				D502473BC8A413DDD5AC76DD /* Pods-HTIOSDataTrackKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BE5E7FC7634F6A230D732B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEF5052511ECA30086F09E /* FMDB.framework */,
+				D5D4669C83B33B890F53A473 /* Pods_HTIOSDataTrackKit.framework */,
+				9E35213E6E1DC6CE1A774D45 /* Pods_HTIOSDataTrackKit_HTIOSDataTrackKitUITests.framework */,
+				B86064DBC25905D12BD3C9B4 /* Pods_HTIOSDataTrackKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4CFE1E24DD4C8300C88DB2 /* HTIOSDataTrackKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4CFE4E24DD4C8700C88DB2 /* Build configuration list for PBXNativeTarget "HTIOSDataTrackKit" */;
+			buildPhases = (
+				C5836EA795ECE9BAC8F6DD6E /* [CP] Check Pods Manifest.lock */,
+				4C4CFE1B24DD4C8300C88DB2 /* Sources */,
+				4C4CFE1C24DD4C8300C88DB2 /* Frameworks */,
+				4C4CFE1D24DD4C8300C88DB2 /* Resources */,
+				4FFA6FF90F3D0C4DA7107A91 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTIOSDataTrackKit;
+			productName = HTIOSDataTrackKit;
+			productReference = 4C4CFE1F24DD4C8300C88DB2 /* 数据上报SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C4CFE3924DD4C8700C88DB2 /* HTIOSDataTrackKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4CFE5124DD4C8700C88DB2 /* Build configuration list for PBXNativeTarget "HTIOSDataTrackKitTests" */;
+			buildPhases = (
+				42738F5398F11DBE581D2B25 /* [CP] Check Pods Manifest.lock */,
+				4C4CFE3624DD4C8700C88DB2 /* Sources */,
+				4C4CFE3724DD4C8700C88DB2 /* Frameworks */,
+				4C4CFE3824DD4C8700C88DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4CFE3C24DD4C8700C88DB2 /* PBXTargetDependency */,
+			);
+			name = HTIOSDataTrackKitTests;
+			productName = HTIOSDataTrackKitTests;
+			productReference = 4C4CFE3A24DD4C8700C88DB2 /* HTIOSDataTrackKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C4CFE4424DD4C8700C88DB2 /* HTIOSDataTrackKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4CFE5424DD4C8700C88DB2 /* Build configuration list for PBXNativeTarget "HTIOSDataTrackKitUITests" */;
+			buildPhases = (
+				753FED7E71F32913AEDA4745 /* [CP] Check Pods Manifest.lock */,
+				4C4CFE4124DD4C8700C88DB2 /* Sources */,
+				4C4CFE4224DD4C8700C88DB2 /* Frameworks */,
+				4C4CFE4324DD4C8700C88DB2 /* Resources */,
+				4E99A0B6BE71EA900E876FCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4CFE4724DD4C8700C88DB2 /* PBXTargetDependency */,
+			);
+			name = HTIOSDataTrackKitUITests;
+			productName = HTIOSDataTrackKitUITests;
+			productReference = 4C4CFE4524DD4C8700C88DB2 /* HTIOSDataTrackKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4CFE1724DD4C8300C88DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "伟东";
+				TargetAttributes = {
+					4C4CFE1E24DD4C8300C88DB2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					4C4CFE3924DD4C8700C88DB2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4C4CFE1E24DD4C8300C88DB2;
+					};
+					4C4CFE4424DD4C8700C88DB2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4C4CFE1E24DD4C8300C88DB2;
+					};
+				};
+			};
+			buildConfigurationList = 4C4CFE1A24DD4C8300C88DB2 /* Build configuration list for PBXProject "HTIOSDataTrackKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C4CFE1624DD4C8300C88DB2;
+			productRefGroup = 4C4CFE2024DD4C8300C88DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4CFE1E24DD4C8300C88DB2 /* HTIOSDataTrackKit */,
+				4C4CFE3924DD4C8700C88DB2 /* HTIOSDataTrackKitTests */,
+				4C4CFE4424DD4C8700C88DB2 /* HTIOSDataTrackKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4CFE1D24DD4C8300C88DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CFE3224DD4C8600C88DB2 /* LaunchScreen.storyboard in Resources */,
+				4C4CFE2F24DD4C8600C88DB2 /* Assets.xcassets in Resources */,
+				4C4CFE2D24DD4C8300C88DB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CFE3824DD4C8700C88DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CFE4324DD4C8700C88DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42738F5398F11DBE581D2B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTIOSDataTrackKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E99A0B6BE71EA900E876FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFA6FF90F3D0C4DA7107A91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTIOSDataTrackKit/Pods-HTIOSDataTrackKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTIOSDataTrackKit/Pods-HTIOSDataTrackKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTIOSDataTrackKit/Pods-HTIOSDataTrackKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		753FED7E71F32913AEDA4745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5836EA795ECE9BAC8F6DD6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTIOSDataTrackKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4CFE1B24DD4C8300C88DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CFE2A24DD4C8300C88DB2 /* ViewController.m in Sources */,
+				4C4CFE2424DD4C8300C88DB2 /* AppDelegate.m in Sources */,
+				4C4CFE3524DD4C8600C88DB2 /* main.m in Sources */,
+				4C4CFE2724DD4C8300C88DB2 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CFE3624DD4C8700C88DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CFE3F24DD4C8700C88DB2 /* HTIOSDataTrackKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CFE4124DD4C8700C88DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CFE4A24DD4C8700C88DB2 /* HTIOSDataTrackKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4CFE3C24DD4C8700C88DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4CFE1E24DD4C8300C88DB2 /* HTIOSDataTrackKit */;
+			targetProxy = 4C4CFE3B24DD4C8700C88DB2 /* PBXContainerItemProxy */;
+		};
+		4C4CFE4724DD4C8700C88DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4CFE1E24DD4C8300C88DB2 /* HTIOSDataTrackKit */;
+			targetProxy = 4C4CFE4624DD4C8700C88DB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C4CFE2B24DD4C8300C88DB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4CFE2C24DD4C8300C88DB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C4CFE3024DD4C8600C88DB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4CFE3124DD4C8600C88DB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C4CFE4C24DD4C8700C88DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C4CFE4D24DD4C8700C88DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C4CFE4F24DD4C8700C88DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5412232B5E2A1B0A7DEC3684 /* Pods-HTIOSDataTrackKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1000;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = HTIOSDataTrackKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HTIOSDataTrackKit/DataTrack/DataBase/FMDB/Products",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTIOSDataTrackKit";
+				PRODUCT_NAME = "数据上报SDK";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C4CFE5024DD4C8700C88DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096627B0B8459E342672427F /* Pods-HTIOSDataTrackKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1000;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = HTIOSDataTrackKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HTIOSDataTrackKit/DataTrack/DataBase/FMDB/Products",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTIOSDataTrackKit";
+				PRODUCT_NAME = "数据上报SDK";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C4CFE5224DD4C8700C88DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C44AD1DD87506C5603AF30 /* Pods-HTIOSDataTrackKitTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = HTIOSDataTrackKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTIOSDataTrackKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTIOSDataTrackKit.app/HTIOSDataTrackKit";
+			};
+			name = Debug;
+		};
+		4C4CFE5324DD4C8700C88DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D502473BC8A413DDD5AC76DD /* Pods-HTIOSDataTrackKitTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = HTIOSDataTrackKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTIOSDataTrackKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTIOSDataTrackKit.app/HTIOSDataTrackKit";
+			};
+			name = Release;
+		};
+		4C4CFE5524DD4C8700C88DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D62F37F41F7FE329AE00B2 /* Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = HTIOSDataTrackKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTIOSDataTrackKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HTIOSDataTrackKit;
+			};
+			name = Debug;
+		};
+		4C4CFE5624DD4C8700C88DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BBB829EFFD165540CAE386 /* Pods-HTIOSDataTrackKit-HTIOSDataTrackKitUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = HTIOSDataTrackKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTIOSDataTrackKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HTIOSDataTrackKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4CFE1A24DD4C8300C88DB2 /* Build configuration list for PBXProject "HTIOSDataTrackKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CFE4C24DD4C8700C88DB2 /* Debug */,
+				4C4CFE4D24DD4C8700C88DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4CFE4E24DD4C8700C88DB2 /* Build configuration list for PBXNativeTarget "HTIOSDataTrackKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CFE4F24DD4C8700C88DB2 /* Debug */,
+				4C4CFE5024DD4C8700C88DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4CFE5124DD4C8700C88DB2 /* Build configuration list for PBXNativeTarget "HTIOSDataTrackKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CFE5224DD4C8700C88DB2 /* Debug */,
+				4C4CFE5324DD4C8700C88DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4CFE5424DD4C8700C88DB2 /* Build configuration list for PBXNativeTarget "HTIOSDataTrackKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CFE5524DD4C8700C88DB2 /* Debug */,
+				4C4CFE5624DD4C8700C88DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4CFE1724DD4C8300C88DB2 /* Project object */;
+}

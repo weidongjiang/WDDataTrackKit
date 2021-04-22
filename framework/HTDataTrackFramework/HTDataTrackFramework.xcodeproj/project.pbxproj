@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C57FE1625D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDBD25D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.h */; };
+		4C57FE1725D0DEAA00AFC5B8 /* HTDataTrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDBE25D0DEAA00AFC5B8 /* HTDataTrackModel.m */; };
+		4C57FE1825D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDBF25D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.m */; };
+		4C57FE1925D0DEAA00AFC5B8 /* HTDataTrackModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDC125D0DEAA00AFC5B8 /* HTDataTrackModel.h */; };
+		4C57FE1A25D0DEAA00AFC5B8 /* HTDataTrackLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDC325D0DEAA00AFC5B8 /* HTDataTrackLogger.h */; };
+		4C57FE1B25D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDC425D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.h */; };
+		4C57FE1C25D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDC525D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.m */; };
+		4C57FE1D25D0DEAA00AFC5B8 /* HTDataTrackLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDC625D0DEAA00AFC5B8 /* HTDataTrackLogger.m */; };
+		4C57FE1E25D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDC725D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.m */; };
+		4C57FE1F25D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDC825D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.h */; };
+		4C57FE2025D0DEAA00AFC5B8 /* HTDataTrackDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDC925D0DEAA00AFC5B8 /* HTDataTrackDefine.h */; };
+		4C57FE2125D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDCB25D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.h */; };
+		4C57FE2225D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDCD25D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.m */; };
+		4C57FE2325D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDCE25D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.h */; };
+		4C57FE2425D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDCF25D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.h */; };
+		4C57FE2525D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDD125D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.h */; };
+		4C57FE2625D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDD225D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.h */; };
+		4C57FE2725D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDD325D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.m */; };
+		4C57FE2825D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDD425D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.m */; };
+		4C57FE2925D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDD625D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.h */; };
+		4C57FE2A25D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDD725D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.m */; };
+		4C57FE2B25D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDD825D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.h */; };
+		4C57FE2C25D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDD925D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.m */; };
+		4C57FE2D25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDDB25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.h */; };
+		4C57FE2E25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDDC25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.m */; };
+		4C57FE2F25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDDD25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.h */; };
+		4C57FE3025D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDDE25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.m */; };
+		4C57FE3125D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDDF25D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.m */; };
+		4C57FE3225D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDE025D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.m */; };
+		4C57FE3325D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDE225D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.h */; };
+		4C57FE3425D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDE325D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.m */; };
+		4C57FE3525D0DEAA00AFC5B8 /* NSString+HTDataTrackString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDE425D0DEAA00AFC5B8 /* NSString+HTDataTrackString.h */; };
+		4C57FE3625D0DEAA00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDE525D0DEAA00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.m */; };
+		4C57FE3725D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDE625D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.h */; };
+		4C57FE3825D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDE725D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.m */; };
+		4C57FE3925D0DEAB00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDE825D0DEAA00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.h */; };
+		4C57FE3A25D0DEAB00AFC5B8 /* NSString+HTDataTrackString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDE925D0DEAA00AFC5B8 /* NSString+HTDataTrackString.m */; };
+		4C57FE3B25D0DEAB00AFC5B8 /* HTCategoryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDEA25D0DEAA00AFC5B8 /* HTCategoryTools.h */; };
+		4C57FE3C25D0DEAB00AFC5B8 /* HTDTChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDED25D0DEAA00AFC5B8 /* HTDTChainRequest.m */; };
+		4C57FE3D25D0DEAB00AFC5B8 /* HTDTNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDEE25D0DEAA00AFC5B8 /* HTDTNetworkPrivate.h */; };
+		4C57FE3E25D0DEAB00AFC5B8 /* HTDTBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDEF25D0DEAA00AFC5B8 /* HTDTBaseRequest.m */; };
+		4C57FE3F25D0DEAB00AFC5B8 /* HTDTChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDF025D0DEAA00AFC5B8 /* HTDTChainRequestAgent.m */; };
+		4C57FE4025D0DEAB00AFC5B8 /* HTDTBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDF125D0DEAA00AFC5B8 /* HTDTBatchRequestAgent.m */; };
+		4C57FE4125D0DEAB00AFC5B8 /* HTDTBatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDF225D0DEAA00AFC5B8 /* HTDTBatchRequest.h */; };
+		4C57FE4225D0DEAB00AFC5B8 /* HTDTNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDF325D0DEAA00AFC5B8 /* HTDTNetworkAgent.h */; };
+		4C57FE4325D0DEAB00AFC5B8 /* HTDTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDF425D0DEAA00AFC5B8 /* HTDTRequest.m */; };
+		4C57FE4425D0DEAB00AFC5B8 /* HTDTNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDF525D0DEAA00AFC5B8 /* HTDTNetworkConfig.h */; };
+		4C57FE4525D0DEAB00AFC5B8 /* HTDTChainRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDF625D0DEAA00AFC5B8 /* HTDTChainRequest.h */; };
+		4C57FE4625D0DEAB00AFC5B8 /* HTDTNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDF725D0DEAA00AFC5B8 /* HTDTNetworkPrivate.m */; };
+		4C57FE4725D0DEAB00AFC5B8 /* HTDTBatchRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDF825D0DEAA00AFC5B8 /* HTDTBatchRequestAgent.h */; };
+		4C57FE4825D0DEAB00AFC5B8 /* HTDTChainRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDF925D0DEAA00AFC5B8 /* HTDTChainRequestAgent.h */; };
+		4C57FE4925D0DEAB00AFC5B8 /* HTDTBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDFA25D0DEAA00AFC5B8 /* HTDTBaseRequest.h */; };
+		4C57FE4A25D0DEAB00AFC5B8 /* HTDTNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDFB25D0DEAA00AFC5B8 /* HTDTNetwork.h */; };
+		4C57FE4B25D0DEAB00AFC5B8 /* HTDTNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDFC25D0DEAA00AFC5B8 /* HTDTNetworkConfig.m */; };
+		4C57FE4C25D0DEAB00AFC5B8 /* HTDTRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FDFD25D0DEAA00AFC5B8 /* HTDTRequest.h */; };
+		4C57FE4D25D0DEAB00AFC5B8 /* HTDTBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDFE25D0DEAA00AFC5B8 /* HTDTBatchRequest.m */; };
+		4C57FE4E25D0DEAB00AFC5B8 /* HTDTNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FDFF25D0DEAA00AFC5B8 /* HTDTNetworkAgent.m */; };
+		4C57FE4F25D0DEAB00AFC5B8 /* HTDataTrackSendLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE0225D0DEAA00AFC5B8 /* HTDataTrackSendLogger.m */; };
+		4C57FE5025D0DEAB00AFC5B8 /* HTDataTrackBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE0325D0DEAA00AFC5B8 /* HTDataTrackBaseRequest.h */; };
+		4C57FE5125D0DEAB00AFC5B8 /* HTDataTrackRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE0425D0DEAA00AFC5B8 /* HTDataTrackRequest.h */; };
+		4C57FE5225D0DEAB00AFC5B8 /* HTDataTrackBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE0525D0DEAA00AFC5B8 /* HTDataTrackBaseRequest.m */; };
+		4C57FE5325D0DEAB00AFC5B8 /* HTDataTrackSendLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE0625D0DEAA00AFC5B8 /* HTDataTrackSendLogger.h */; };
+		4C57FE5425D0DEAB00AFC5B8 /* HTDataTrackRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE0725D0DEAA00AFC5B8 /* HTDataTrackRequest.m */; };
+		4C57FE5525D0DEAB00AFC5B8 /* HTDataTrackConsoleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE0925D0DEAA00AFC5B8 /* HTDataTrackConsoleLog.m */; };
+		4C57FE5625D0DEAB00AFC5B8 /* HTDataTrackReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE0A25D0DEAA00AFC5B8 /* HTDataTrackReachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C57FE5725D0DEAB00AFC5B8 /* HTKeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE0B25D0DEAA00AFC5B8 /* HTKeychainItemWrapper.m */; };
+		4C57FE5825D0DEAB00AFC5B8 /* HTDataTrackCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE0C25D0DEAA00AFC5B8 /* HTDataTrackCommonTools.m */; };
+		4C57FE5925D0DEAB00AFC5B8 /* HTDataTrackLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE0D25D0DEAA00AFC5B8 /* HTDataTrackLocationManager.m */; };
+		4C57FE5A25D0DEAB00AFC5B8 /* HTGetUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE0E25D0DEAA00AFC5B8 /* HTGetUUID.h */; };
+		4C57FE5B25D0DEAB00AFC5B8 /* HTDataTrackReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE0F25D0DEAA00AFC5B8 /* HTDataTrackReachability.h */; };
+		4C57FE5C25D0DEAB00AFC5B8 /* HTKeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE1025D0DEAA00AFC5B8 /* HTKeychainItemWrapper.h */; };
+		4C57FE5D25D0DEAB00AFC5B8 /* HTDataTrackConsoleLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE1125D0DEAA00AFC5B8 /* HTDataTrackConsoleLog.h */; };
+		4C57FE5E25D0DEAB00AFC5B8 /* HTDataTrackCommonTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE1225D0DEAA00AFC5B8 /* HTDataTrackCommonTools.h */; };
+		4C57FE5F25D0DEAB00AFC5B8 /* HTGetUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57FE1325D0DEAA00AFC5B8 /* HTGetUUID.m */; };
+		4C57FE6025D0DEAB00AFC5B8 /* HTDataTrackLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE1425D0DEAA00AFC5B8 /* HTDataTrackLocationManager.h */; };
+		4C57FE6125D0DEAB00AFC5B8 /* HTDataTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C57FE1525D0DEAA00AFC5B8 /* HTDataTrack.h */; };
+		4CDA2CE3255928DF001D67CE /* HTDataTrackFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA2CD9255928DF001D67CE /* HTDataTrackFramework.framework */; };
+		4CDA2CE8255928DF001D67CE /* HTDataTrackFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA2CE7255928DF001D67CE /* HTDataTrackFrameworkTests.m */; };
+		4CDA2CEA255928DF001D67CE /* HTDataTrackFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CDA2CDC255928DF001D67CE /* HTDataTrackFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CDA2DFD25592FE9001D67CE /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA2DFC25592FE9001D67CE /* FMDB.framework */; };
+		4CDA2DFF25592FEF001D67CE /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA2DFE25592FEF001D67CE /* AFNetworking.framework */; };
+		4CDA2E0125592FF4001D67CE /* SensorsAnalyticsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA2E0025592FF4001D67CE /* SensorsAnalyticsSDK.framework */; };
+		6B192A148FE18B464BD5576C /* Pods_HTDataTrackFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF25041031C43509B94A49F /* Pods_HTDataTrackFramework.framework */; };
+		9C466EDD5A9AB59EDA3FF44E /* Pods_HTDataTrackFramework_HTDataTrackFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054DFD8F1E6C255585F28885 /* Pods_HTDataTrackFramework_HTDataTrackFrameworkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDA2CE4255928DF001D67CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDA2CD0255928DE001D67CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDA2CD8255928DF001D67CE;
+			remoteInfo = HTDataTrackFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054DFD8F1E6C255585F28885 /* Pods_HTDataTrackFramework_HTDataTrackFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTDataTrackFramework_HTDataTrackFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EB0ABCC1BDA213A0EC8473 /* Pods-HTDataTrackFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTDataTrackFramework.debug.xcconfig"; path = "Target Support Files/Pods-HTDataTrackFramework/Pods-HTDataTrackFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		4C57FDBD25D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackDatabaseMgr.h; sourceTree = "<group>"; };
+		4C57FDBE25D0DEAA00AFC5B8 /* HTDataTrackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackModel.m; sourceTree = "<group>"; };
+		4C57FDBF25D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackDatabaseMgr.m; sourceTree = "<group>"; };
+		4C57FDC125D0DEAA00AFC5B8 /* HTDataTrackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackModel.h; sourceTree = "<group>"; };
+		4C57FDC325D0DEAA00AFC5B8 /* HTDataTrackLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackLogger.h; sourceTree = "<group>"; };
+		4C57FDC425D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackCommonLogger.h; sourceTree = "<group>"; };
+		4C57FDC525D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackBaseLogger.m; sourceTree = "<group>"; };
+		4C57FDC625D0DEAA00AFC5B8 /* HTDataTrackLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackLogger.m; sourceTree = "<group>"; };
+		4C57FDC725D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackCommonLogger.m; sourceTree = "<group>"; };
+		4C57FDC825D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackBaseLogger.h; sourceTree = "<group>"; };
+		4C57FDC925D0DEAA00AFC5B8 /* HTDataTrackDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackDefine.h; sourceTree = "<group>"; };
+		4C57FDCB25D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackTTypeCastUtil.h; sourceTree = "<group>"; };
+		4C57FDCD25D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+HTDataTrackUtilities.m"; sourceTree = "<group>"; };
+		4C57FDCE25D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+HTDataTrackUtilities.h"; sourceTree = "<group>"; };
+		4C57FDCF25D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HTDataTrackTAssociatedObject.h"; sourceTree = "<group>"; };
+		4C57FDD125D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HTDataTrackTypeCast.h"; sourceTree = "<group>"; };
+		4C57FDD225D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HTDataTrackUtilities.h"; sourceTree = "<group>"; };
+		4C57FDD325D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HTDataTrackUtilities.m"; sourceTree = "<group>"; };
+		4C57FDD425D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HTDataTrackTypeCast.m"; sourceTree = "<group>"; };
+		4C57FDD625D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HTDataTrackUtilities.h"; sourceTree = "<group>"; };
+		4C57FDD725D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HTDataTrackUtilities.m"; sourceTree = "<group>"; };
+		4C57FDD825D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackLTypeCastUtil.h; sourceTree = "<group>"; };
+		4C57FDD925D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackTTypeCastUtil.m; sourceTree = "<group>"; };
+		4C57FDDB25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HTDataTrackTypeCast.h"; sourceTree = "<group>"; };
+		4C57FDDC25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HTDataTrackKeyValue.m"; sourceTree = "<group>"; };
+		4C57FDDD25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HTDataTrackKeyValue.h"; sourceTree = "<group>"; };
+		4C57FDDE25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HTDataTrackTypeCast.m"; sourceTree = "<group>"; };
+		4C57FDDF25D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HTDataTrackTAssociatedObject.m"; sourceTree = "<group>"; };
+		4C57FDE025D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackLTypeCastUtil.m; sourceTree = "<group>"; };
+		4C57FDE225D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTDataTrackUtilities.h"; sourceTree = "<group>"; };
+		4C57FDE325D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTDataTrackWrapper.m"; sourceTree = "<group>"; };
+		4C57FDE425D0DEAA00AFC5B8 /* NSString+HTDataTrackString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTDataTrackString.h"; sourceTree = "<group>"; };
+		4C57FDE525D0DEAA00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTDataTrackTSimpleMatching.m"; sourceTree = "<group>"; };
+		4C57FDE625D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTDataTrackWrapper.h"; sourceTree = "<group>"; };
+		4C57FDE725D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTDataTrackUtilities.m"; sourceTree = "<group>"; };
+		4C57FDE825D0DEAA00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTDataTrackTSimpleMatching.h"; sourceTree = "<group>"; };
+		4C57FDE925D0DEAA00AFC5B8 /* NSString+HTDataTrackString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTDataTrackString.m"; sourceTree = "<group>"; };
+		4C57FDEA25D0DEAA00AFC5B8 /* HTCategoryTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCategoryTools.h; sourceTree = "<group>"; };
+		4C57FDED25D0DEAA00AFC5B8 /* HTDTChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTChainRequest.m; sourceTree = "<group>"; };
+		4C57FDEE25D0DEAA00AFC5B8 /* HTDTNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTNetworkPrivate.h; sourceTree = "<group>"; };
+		4C57FDEF25D0DEAA00AFC5B8 /* HTDTBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTBaseRequest.m; sourceTree = "<group>"; };
+		4C57FDF025D0DEAA00AFC5B8 /* HTDTChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTChainRequestAgent.m; sourceTree = "<group>"; };
+		4C57FDF125D0DEAA00AFC5B8 /* HTDTBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTBatchRequestAgent.m; sourceTree = "<group>"; };
+		4C57FDF225D0DEAA00AFC5B8 /* HTDTBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTBatchRequest.h; sourceTree = "<group>"; };
+		4C57FDF325D0DEAA00AFC5B8 /* HTDTNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTNetworkAgent.h; sourceTree = "<group>"; };
+		4C57FDF425D0DEAA00AFC5B8 /* HTDTRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTRequest.m; sourceTree = "<group>"; };
+		4C57FDF525D0DEAA00AFC5B8 /* HTDTNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTNetworkConfig.h; sourceTree = "<group>"; };
+		4C57FDF625D0DEAA00AFC5B8 /* HTDTChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTChainRequest.h; sourceTree = "<group>"; };
+		4C57FDF725D0DEAA00AFC5B8 /* HTDTNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTNetworkPrivate.m; sourceTree = "<group>"; };
+		4C57FDF825D0DEAA00AFC5B8 /* HTDTBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTBatchRequestAgent.h; sourceTree = "<group>"; };
+		4C57FDF925D0DEAA00AFC5B8 /* HTDTChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTChainRequestAgent.h; sourceTree = "<group>"; };
+		4C57FDFA25D0DEAA00AFC5B8 /* HTDTBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTBaseRequest.h; sourceTree = "<group>"; };
+		4C57FDFB25D0DEAA00AFC5B8 /* HTDTNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTNetwork.h; sourceTree = "<group>"; };
+		4C57FDFC25D0DEAA00AFC5B8 /* HTDTNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTNetworkConfig.m; sourceTree = "<group>"; };
+		4C57FDFD25D0DEAA00AFC5B8 /* HTDTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDTRequest.h; sourceTree = "<group>"; };
+		4C57FDFE25D0DEAA00AFC5B8 /* HTDTBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTBatchRequest.m; sourceTree = "<group>"; };
+		4C57FDFF25D0DEAA00AFC5B8 /* HTDTNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDTNetworkAgent.m; sourceTree = "<group>"; };
+		4C57FE0225D0DEAA00AFC5B8 /* HTDataTrackSendLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackSendLogger.m; sourceTree = "<group>"; };
+		4C57FE0325D0DEAA00AFC5B8 /* HTDataTrackBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackBaseRequest.h; sourceTree = "<group>"; };
+		4C57FE0425D0DEAA00AFC5B8 /* HTDataTrackRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackRequest.h; sourceTree = "<group>"; };
+		4C57FE0525D0DEAA00AFC5B8 /* HTDataTrackBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackBaseRequest.m; sourceTree = "<group>"; };
+		4C57FE0625D0DEAA00AFC5B8 /* HTDataTrackSendLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackSendLogger.h; sourceTree = "<group>"; };
+		4C57FE0725D0DEAA00AFC5B8 /* HTDataTrackRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackRequest.m; sourceTree = "<group>"; };
+		4C57FE0925D0DEAA00AFC5B8 /* HTDataTrackConsoleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackConsoleLog.m; sourceTree = "<group>"; };
+		4C57FE0A25D0DEAA00AFC5B8 /* HTDataTrackReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackReachability.m; sourceTree = "<group>"; };
+		4C57FE0B25D0DEAA00AFC5B8 /* HTKeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKeychainItemWrapper.m; sourceTree = "<group>"; };
+		4C57FE0C25D0DEAA00AFC5B8 /* HTDataTrackCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackCommonTools.m; sourceTree = "<group>"; };
+		4C57FE0D25D0DEAA00AFC5B8 /* HTDataTrackLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackLocationManager.m; sourceTree = "<group>"; };
+		4C57FE0E25D0DEAA00AFC5B8 /* HTGetUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTGetUUID.h; sourceTree = "<group>"; };
+		4C57FE0F25D0DEAA00AFC5B8 /* HTDataTrackReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackReachability.h; sourceTree = "<group>"; };
+		4C57FE1025D0DEAA00AFC5B8 /* HTKeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKeychainItemWrapper.h; sourceTree = "<group>"; };
+		4C57FE1125D0DEAA00AFC5B8 /* HTDataTrackConsoleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackConsoleLog.h; sourceTree = "<group>"; };
+		4C57FE1225D0DEAA00AFC5B8 /* HTDataTrackCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackCommonTools.h; sourceTree = "<group>"; };
+		4C57FE1325D0DEAA00AFC5B8 /* HTGetUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTGetUUID.m; sourceTree = "<group>"; };
+		4C57FE1425D0DEAA00AFC5B8 /* HTDataTrackLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrackLocationManager.h; sourceTree = "<group>"; };
+		4C57FE1525D0DEAA00AFC5B8 /* HTDataTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataTrack.h; sourceTree = "<group>"; };
+		4CDA2CD9255928DF001D67CE /* HTDataTrackFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTDataTrackFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDA2CDC255928DF001D67CE /* HTDataTrackFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTDataTrackFramework.h; sourceTree = "<group>"; };
+		4CDA2CDD255928DF001D67CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDA2CE2255928DF001D67CE /* HTDataTrackFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTDataTrackFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDA2CE7255928DF001D67CE /* HTDataTrackFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTDataTrackFrameworkTests.m; sourceTree = "<group>"; };
+		4CDA2CE9255928DF001D67CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDA2DFC25592FE9001D67CE /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDA2DFE25592FEF001D67CE /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDA2E0025592FF4001D67CE /* SensorsAnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SensorsAnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF25041031C43509B94A49F /* Pods_HTDataTrackFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTDataTrackFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CA930165152F8BAB311763 /* Pods-HTDataTrackFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTDataTrackFramework.release.xcconfig"; path = "Target Support Files/Pods-HTDataTrackFramework/Pods-HTDataTrackFramework.release.xcconfig"; sourceTree = "<group>"; };
+		5F74A2B15E39DF25D85486EE /* Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		737C42F85E69247E3B2069B2 /* Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDA2CD6255928DF001D67CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA2E0125592FF4001D67CE /* SensorsAnalyticsSDK.framework in Frameworks */,
+				4CDA2DFF25592FEF001D67CE /* AFNetworking.framework in Frameworks */,
+				4CDA2DFD25592FE9001D67CE /* FMDB.framework in Frameworks */,
+				6B192A148FE18B464BD5576C /* Pods_HTDataTrackFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDA2CDF255928DF001D67CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA2CE3255928DF001D67CE /* HTDataTrackFramework.framework in Frameworks */,
+				9C466EDD5A9AB59EDA3FF44E /* Pods_HTDataTrackFramework_HTDataTrackFrameworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C57FDBB25D0DEAA00AFC5B8 /* DataTrack */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDBC25D0DEAA00AFC5B8 /* DataBase */,
+				4C57FDC225D0DEAA00AFC5B8 /* Logger */,
+				4C57FDCA25D0DEAA00AFC5B8 /* category */,
+				4C57FDEB25D0DEAA00AFC5B8 /* Networking */,
+				4C57FE0125D0DEAA00AFC5B8 /* sendLogger */,
+				4C57FE0825D0DEAA00AFC5B8 /* common */,
+				4C57FE1525D0DEAA00AFC5B8 /* HTDataTrack.h */,
+			);
+			name = DataTrack;
+			path = ../../DataTrack;
+			sourceTree = "<group>";
+		};
+		4C57FDBC25D0DEAA00AFC5B8 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDBD25D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.h */,
+				4C57FDBE25D0DEAA00AFC5B8 /* HTDataTrackModel.m */,
+				4C57FDBF25D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.m */,
+				4C57FDC125D0DEAA00AFC5B8 /* HTDataTrackModel.h */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		4C57FDC225D0DEAA00AFC5B8 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDC325D0DEAA00AFC5B8 /* HTDataTrackLogger.h */,
+				4C57FDC425D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.h */,
+				4C57FDC525D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.m */,
+				4C57FDC625D0DEAA00AFC5B8 /* HTDataTrackLogger.m */,
+				4C57FDC725D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.m */,
+				4C57FDC825D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.h */,
+				4C57FDC925D0DEAA00AFC5B8 /* HTDataTrackDefine.h */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		4C57FDCA25D0DEAA00AFC5B8 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDCB25D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.h */,
+				4C57FDCC25D0DEAA00AFC5B8 /* file */,
+				4C57FDCF25D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.h */,
+				4C57FDD025D0DEAA00AFC5B8 /* array */,
+				4C57FDD525D0DEAA00AFC5B8 /* Date */,
+				4C57FDD825D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.h */,
+				4C57FDD925D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.m */,
+				4C57FDDA25D0DEAA00AFC5B8 /* dictionary */,
+				4C57FDDF25D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.m */,
+				4C57FDE025D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.m */,
+				4C57FDE125D0DEAA00AFC5B8 /* string */,
+				4C57FDEA25D0DEAA00AFC5B8 /* HTCategoryTools.h */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		4C57FDCC25D0DEAA00AFC5B8 /* file */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDCD25D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.m */,
+				4C57FDCE25D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.h */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
+		4C57FDD025D0DEAA00AFC5B8 /* array */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDD125D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.h */,
+				4C57FDD225D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.h */,
+				4C57FDD325D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.m */,
+				4C57FDD425D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.m */,
+			);
+			path = array;
+			sourceTree = "<group>";
+		};
+		4C57FDD525D0DEAA00AFC5B8 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDD625D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.h */,
+				4C57FDD725D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		4C57FDDA25D0DEAA00AFC5B8 /* dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDDB25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.h */,
+				4C57FDDC25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.m */,
+				4C57FDDD25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.h */,
+				4C57FDDE25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.m */,
+			);
+			path = dictionary;
+			sourceTree = "<group>";
+		};
+		4C57FDE125D0DEAA00AFC5B8 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDE225D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.h */,
+				4C57FDE725D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.m */,
+				4C57FDE825D0DEAA00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.h */,
+				4C57FDE525D0DEAA00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.m */,
+				4C57FDE625D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.h */,
+				4C57FDE325D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.m */,
+				4C57FDE425D0DEAA00AFC5B8 /* NSString+HTDataTrackString.h */,
+				4C57FDE925D0DEAA00AFC5B8 /* NSString+HTDataTrackString.m */,
+			);
+			path = string;
+			sourceTree = "<group>";
+		};
+		4C57FDEB25D0DEAA00AFC5B8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDEC25D0DEAA00AFC5B8 /* HTDTNetwork */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4C57FDEC25D0DEAA00AFC5B8 /* HTDTNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDED25D0DEAA00AFC5B8 /* HTDTChainRequest.m */,
+				4C57FDEE25D0DEAA00AFC5B8 /* HTDTNetworkPrivate.h */,
+				4C57FDEF25D0DEAA00AFC5B8 /* HTDTBaseRequest.m */,
+				4C57FDF025D0DEAA00AFC5B8 /* HTDTChainRequestAgent.m */,
+				4C57FDF125D0DEAA00AFC5B8 /* HTDTBatchRequestAgent.m */,
+				4C57FDF225D0DEAA00AFC5B8 /* HTDTBatchRequest.h */,
+				4C57FDF325D0DEAA00AFC5B8 /* HTDTNetworkAgent.h */,
+				4C57FDF425D0DEAA00AFC5B8 /* HTDTRequest.m */,
+				4C57FDF525D0DEAA00AFC5B8 /* HTDTNetworkConfig.h */,
+				4C57FDF625D0DEAA00AFC5B8 /* HTDTChainRequest.h */,
+				4C57FDF725D0DEAA00AFC5B8 /* HTDTNetworkPrivate.m */,
+				4C57FDF825D0DEAA00AFC5B8 /* HTDTBatchRequestAgent.h */,
+				4C57FDF925D0DEAA00AFC5B8 /* HTDTChainRequestAgent.h */,
+				4C57FDFA25D0DEAA00AFC5B8 /* HTDTBaseRequest.h */,
+				4C57FDFB25D0DEAA00AFC5B8 /* HTDTNetwork.h */,
+				4C57FDFC25D0DEAA00AFC5B8 /* HTDTNetworkConfig.m */,
+				4C57FDFD25D0DEAA00AFC5B8 /* HTDTRequest.h */,
+				4C57FDFE25D0DEAA00AFC5B8 /* HTDTBatchRequest.m */,
+				4C57FDFF25D0DEAA00AFC5B8 /* HTDTNetworkAgent.m */,
+			);
+			path = HTDTNetwork;
+			sourceTree = "<group>";
+		};
+		4C57FE0125D0DEAA00AFC5B8 /* sendLogger */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FE0225D0DEAA00AFC5B8 /* HTDataTrackSendLogger.m */,
+				4C57FE0325D0DEAA00AFC5B8 /* HTDataTrackBaseRequest.h */,
+				4C57FE0425D0DEAA00AFC5B8 /* HTDataTrackRequest.h */,
+				4C57FE0525D0DEAA00AFC5B8 /* HTDataTrackBaseRequest.m */,
+				4C57FE0625D0DEAA00AFC5B8 /* HTDataTrackSendLogger.h */,
+				4C57FE0725D0DEAA00AFC5B8 /* HTDataTrackRequest.m */,
+			);
+			path = sendLogger;
+			sourceTree = "<group>";
+		};
+		4C57FE0825D0DEAA00AFC5B8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FE0925D0DEAA00AFC5B8 /* HTDataTrackConsoleLog.m */,
+				4C57FE1125D0DEAA00AFC5B8 /* HTDataTrackConsoleLog.h */,
+				4C57FE0A25D0DEAA00AFC5B8 /* HTDataTrackReachability.m */,
+				4C57FE0B25D0DEAA00AFC5B8 /* HTKeychainItemWrapper.m */,
+				4C57FE0C25D0DEAA00AFC5B8 /* HTDataTrackCommonTools.m */,
+				4C57FE0D25D0DEAA00AFC5B8 /* HTDataTrackLocationManager.m */,
+				4C57FE0E25D0DEAA00AFC5B8 /* HTGetUUID.h */,
+				4C57FE0F25D0DEAA00AFC5B8 /* HTDataTrackReachability.h */,
+				4C57FE1025D0DEAA00AFC5B8 /* HTKeychainItemWrapper.h */,
+				4C57FE1225D0DEAA00AFC5B8 /* HTDataTrackCommonTools.h */,
+				4C57FE1325D0DEAA00AFC5B8 /* HTGetUUID.m */,
+				4C57FE1425D0DEAA00AFC5B8 /* HTDataTrackLocationManager.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		4CDA2CCF255928DE001D67CE = {
+			isa = PBXGroup;
+			children = (
+				4CDA2CDB255928DF001D67CE /* HTDataTrackFramework */,
+				4CDA2CE6255928DF001D67CE /* HTDataTrackFrameworkTests */,
+				4CDA2CDA255928DF001D67CE /* Products */,
+				8FC96B587AB56DE565BE3875 /* Pods */,
+				8A52997D8E11935D61CEBBC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDA2CDA255928DF001D67CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA2CD9255928DF001D67CE /* HTDataTrackFramework.framework */,
+				4CDA2CE2255928DF001D67CE /* HTDataTrackFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDA2CDB255928DF001D67CE /* HTDataTrackFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4C57FDBB25D0DEAA00AFC5B8 /* DataTrack */,
+				4CDA2CDC255928DF001D67CE /* HTDataTrackFramework.h */,
+				4CDA2CDD255928DF001D67CE /* Info.plist */,
+			);
+			path = HTDataTrackFramework;
+			sourceTree = "<group>";
+		};
+		4CDA2CE6255928DF001D67CE /* HTDataTrackFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA2CE7255928DF001D67CE /* HTDataTrackFrameworkTests.m */,
+				4CDA2CE9255928DF001D67CE /* Info.plist */,
+			);
+			path = HTDataTrackFrameworkTests;
+			sourceTree = "<group>";
+		};
+		8A52997D8E11935D61CEBBC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA2E0025592FF4001D67CE /* SensorsAnalyticsSDK.framework */,
+				4CDA2DFE25592FEF001D67CE /* AFNetworking.framework */,
+				4CDA2DFC25592FE9001D67CE /* FMDB.framework */,
+				4CF25041031C43509B94A49F /* Pods_HTDataTrackFramework.framework */,
+				054DFD8F1E6C255585F28885 /* Pods_HTDataTrackFramework_HTDataTrackFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FC96B587AB56DE565BE3875 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47EB0ABCC1BDA213A0EC8473 /* Pods-HTDataTrackFramework.debug.xcconfig */,
+				57CA930165152F8BAB311763 /* Pods-HTDataTrackFramework.release.xcconfig */,
+				5F74A2B15E39DF25D85486EE /* Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.debug.xcconfig */,
+				737C42F85E69247E3B2069B2 /* Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CDA2CD4255928DF001D67CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C57FE2325D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.h in Headers */,
+				4C57FE3B25D0DEAB00AFC5B8 /* HTCategoryTools.h in Headers */,
+				4C57FE2525D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.h in Headers */,
+				4C57FE3925D0DEAB00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.h in Headers */,
+				4C57FE1A25D0DEAA00AFC5B8 /* HTDataTrackLogger.h in Headers */,
+				4C57FE6125D0DEAB00AFC5B8 /* HTDataTrack.h in Headers */,
+				4C57FE4225D0DEAB00AFC5B8 /* HTDTNetworkAgent.h in Headers */,
+				4C57FE2425D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.h in Headers */,
+				4C57FE4C25D0DEAB00AFC5B8 /* HTDTRequest.h in Headers */,
+				4C57FE2D25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.h in Headers */,
+				4C57FE4525D0DEAB00AFC5B8 /* HTDTChainRequest.h in Headers */,
+				4C57FE4A25D0DEAB00AFC5B8 /* HTDTNetwork.h in Headers */,
+				4C57FE5D25D0DEAB00AFC5B8 /* HTDataTrackConsoleLog.h in Headers */,
+				4C57FE3325D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.h in Headers */,
+				4C57FE2B25D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.h in Headers */,
+				4C57FE5125D0DEAB00AFC5B8 /* HTDataTrackRequest.h in Headers */,
+				4C57FE2025D0DEAA00AFC5B8 /* HTDataTrackDefine.h in Headers */,
+				4C57FE5A25D0DEAB00AFC5B8 /* HTGetUUID.h in Headers */,
+				4C57FE6025D0DEAB00AFC5B8 /* HTDataTrackLocationManager.h in Headers */,
+				4C57FE4425D0DEAB00AFC5B8 /* HTDTNetworkConfig.h in Headers */,
+				4C57FE4125D0DEAB00AFC5B8 /* HTDTBatchRequest.h in Headers */,
+				4C57FE2F25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.h in Headers */,
+				4C57FE5B25D0DEAB00AFC5B8 /* HTDataTrackReachability.h in Headers */,
+				4C57FE5325D0DEAB00AFC5B8 /* HTDataTrackSendLogger.h in Headers */,
+				4C57FE5E25D0DEAB00AFC5B8 /* HTDataTrackCommonTools.h in Headers */,
+				4C57FE4725D0DEAB00AFC5B8 /* HTDTBatchRequestAgent.h in Headers */,
+				4C57FE3D25D0DEAB00AFC5B8 /* HTDTNetworkPrivate.h in Headers */,
+				4C57FE4925D0DEAB00AFC5B8 /* HTDTBaseRequest.h in Headers */,
+				4C57FE2125D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.h in Headers */,
+				4C57FE1F25D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.h in Headers */,
+				4C57FE3525D0DEAA00AFC5B8 /* NSString+HTDataTrackString.h in Headers */,
+				4C57FE1625D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.h in Headers */,
+				4C57FE1925D0DEAA00AFC5B8 /* HTDataTrackModel.h in Headers */,
+				4C57FE3725D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.h in Headers */,
+				4CDA2CEA255928DF001D67CE /* HTDataTrackFramework.h in Headers */,
+				4C57FE4825D0DEAB00AFC5B8 /* HTDTChainRequestAgent.h in Headers */,
+				4C57FE2625D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.h in Headers */,
+				4C57FE5025D0DEAB00AFC5B8 /* HTDataTrackBaseRequest.h in Headers */,
+				4C57FE5C25D0DEAB00AFC5B8 /* HTKeychainItemWrapper.h in Headers */,
+				4C57FE2925D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.h in Headers */,
+				4C57FE1B25D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CDA2CD8255928DF001D67CE /* HTDataTrackFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDA2CED255928DF001D67CE /* Build configuration list for PBXNativeTarget "HTDataTrackFramework" */;
+			buildPhases = (
+				5F81901B34D02EC3E65B82C3 /* [CP] Check Pods Manifest.lock */,
+				4CDA2CD4255928DF001D67CE /* Headers */,
+				4CDA2CD5255928DF001D67CE /* Sources */,
+				4CDA2CD6255928DF001D67CE /* Frameworks */,
+				4CDA2CD7255928DF001D67CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTDataTrackFramework;
+			productName = HTDataTrackFramework;
+			productReference = 4CDA2CD9255928DF001D67CE /* HTDataTrackFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CDA2CE1255928DF001D67CE /* HTDataTrackFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDA2CF0255928DF001D67CE /* Build configuration list for PBXNativeTarget "HTDataTrackFrameworkTests" */;
+			buildPhases = (
+				EACE52DBE3FA33CEEB3748EE /* [CP] Check Pods Manifest.lock */,
+				4CDA2CDE255928DF001D67CE /* Sources */,
+				4CDA2CDF255928DF001D67CE /* Frameworks */,
+				4CDA2CE0255928DF001D67CE /* Resources */,
+				33991C0B947BA39223FD1A70 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDA2CE5255928DF001D67CE /* PBXTargetDependency */,
+			);
+			name = HTDataTrackFrameworkTests;
+			productName = HTDataTrackFrameworkTests;
+			productReference = 4CDA2CE2255928DF001D67CE /* HTDataTrackFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDA2CD0255928DE001D67CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4CDA2CD8255928DF001D67CE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4CDA2CE1255928DF001D67CE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 4CDA2CD3255928DE001D67CE /* Build configuration list for PBXProject "HTDataTrackFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDA2CCF255928DE001D67CE;
+			productRefGroup = 4CDA2CDA255928DF001D67CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDA2CD8255928DF001D67CE /* HTDataTrackFramework */,
+				4CDA2CE1255928DF001D67CE /* HTDataTrackFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDA2CD7255928DF001D67CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDA2CE0255928DF001D67CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33991C0B947BA39223FD1A70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F81901B34D02EC3E65B82C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTDataTrackFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACE52DBE3FA33CEEB3748EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTDataTrackFramework-HTDataTrackFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDA2CD5255928DF001D67CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C57FE4625D0DEAB00AFC5B8 /* HTDTNetworkPrivate.m in Sources */,
+				4C57FE3C25D0DEAB00AFC5B8 /* HTDTChainRequest.m in Sources */,
+				4C57FE1725D0DEAA00AFC5B8 /* HTDataTrackModel.m in Sources */,
+				4C57FE3425D0DEAA00AFC5B8 /* NSString+HTDataTrackWrapper.m in Sources */,
+				4C57FE3225D0DEAA00AFC5B8 /* HTDataTrackLTypeCastUtil.m in Sources */,
+				4C57FE3E25D0DEAB00AFC5B8 /* HTDTBaseRequest.m in Sources */,
+				4C57FE4B25D0DEAB00AFC5B8 /* HTDTNetworkConfig.m in Sources */,
+				4C57FE2225D0DEAA00AFC5B8 /* NSFileManager+HTDataTrackUtilities.m in Sources */,
+				4C57FE3825D0DEAA00AFC5B8 /* NSString+HTDataTrackUtilities.m in Sources */,
+				4C57FE4E25D0DEAB00AFC5B8 /* HTDTNetworkAgent.m in Sources */,
+				4C57FE5825D0DEAB00AFC5B8 /* HTDataTrackCommonTools.m in Sources */,
+				4C57FE2A25D0DEAA00AFC5B8 /* NSDate+HTDataTrackUtilities.m in Sources */,
+				4C57FE3A25D0DEAB00AFC5B8 /* NSString+HTDataTrackString.m in Sources */,
+				4C57FE2C25D0DEAA00AFC5B8 /* HTDataTrackTTypeCastUtil.m in Sources */,
+				4C57FE2E25D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackKeyValue.m in Sources */,
+				4C57FE3625D0DEAA00AFC5B8 /* NSString+HTDataTrackTSimpleMatching.m in Sources */,
+				4C57FE5525D0DEAB00AFC5B8 /* HTDataTrackConsoleLog.m in Sources */,
+				4C57FE5625D0DEAB00AFC5B8 /* HTDataTrackReachability.m in Sources */,
+				4C57FE4025D0DEAB00AFC5B8 /* HTDTBatchRequestAgent.m in Sources */,
+				4C57FE1D25D0DEAA00AFC5B8 /* HTDataTrackLogger.m in Sources */,
+				4C57FE5425D0DEAB00AFC5B8 /* HTDataTrackRequest.m in Sources */,
+				4C57FE4D25D0DEAB00AFC5B8 /* HTDTBatchRequest.m in Sources */,
+				4C57FE2825D0DEAA00AFC5B8 /* NSArray+HTDataTrackTypeCast.m in Sources */,
+				4C57FE5725D0DEAB00AFC5B8 /* HTKeychainItemWrapper.m in Sources */,
+				4C57FE3F25D0DEAB00AFC5B8 /* HTDTChainRequestAgent.m in Sources */,
+				4C57FE5F25D0DEAB00AFC5B8 /* HTGetUUID.m in Sources */,
+				4C57FE1C25D0DEAA00AFC5B8 /* HTDataTrackBaseLogger.m in Sources */,
+				4C57FE5225D0DEAB00AFC5B8 /* HTDataTrackBaseRequest.m in Sources */,
+				4C57FE3125D0DEAA00AFC5B8 /* NSObject+HTDataTrackTAssociatedObject.m in Sources */,
+				4C57FE4325D0DEAB00AFC5B8 /* HTDTRequest.m in Sources */,
+				4C57FE2725D0DEAA00AFC5B8 /* NSArray+HTDataTrackUtilities.m in Sources */,
+				4C57FE1825D0DEAA00AFC5B8 /* HTDataTrackDatabaseMgr.m in Sources */,
+				4C57FE1E25D0DEAA00AFC5B8 /* HTDataTrackCommonLogger.m in Sources */,
+				4C57FE5925D0DEAB00AFC5B8 /* HTDataTrackLocationManager.m in Sources */,
+				4C57FE3025D0DEAA00AFC5B8 /* NSDictionary+HTDataTrackTypeCast.m in Sources */,
+				4C57FE4F25D0DEAB00AFC5B8 /* HTDataTrackSendLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDA2CDE255928DF001D67CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA2CE8255928DF001D67CE /* HTDataTrackFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDA2CE5255928DF001D67CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDA2CD8255928DF001D67CE /* HTDataTrackFramework */;
+			targetProxy = 4CDA2CE4255928DF001D67CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CDA2CEB255928DF001D67CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CDA2CEC255928DF001D67CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CDA2CEE255928DF001D67CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EB0ABCC1BDA213A0EC8473 /* Pods-HTDataTrackFramework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HTDataTrackFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTDataTrackFramework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CDA2CEF255928DF001D67CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CA930165152F8BAB311763 /* Pods-HTDataTrackFramework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HTDataTrackFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTDataTrackFramework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CDA2CF1255928DF001D67CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F74A2B15E39DF25D85486EE /* Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = HTDataTrackFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTDataTrackFrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CDA2CF2255928DF001D67CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737C42F85E69247E3B2069B2 /* Pods-HTDataTrackFramework-HTDataTrackFrameworkTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = HTDataTrackFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hetao101.data-track.com.HTDataTrackFrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDA2CD3255928DE001D67CE /* Build configuration list for PBXProject "HTDataTrackFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDA2CEB255928DF001D67CE /* Debug */,
+				4CDA2CEC255928DF001D67CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDA2CED255928DF001D67CE /* Build configuration list for PBXNativeTarget "HTDataTrackFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDA2CEE255928DF001D67CE /* Debug */,
+				4CDA2CEF255928DF001D67CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDA2CF0255928DF001D67CE /* Build configuration list for PBXNativeTarget "HTDataTrackFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDA2CF1255928DF001D67CE /* Debug */,
+				4CDA2CF2255928DF001D67CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDA2CD0255928DE001D67CE /* Project object */;
+}

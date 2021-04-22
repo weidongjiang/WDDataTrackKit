@@ -1,0 +1,6 @@
+framework module Pods_HTDataTrackFramework {
+  umbrella header "Pods-HTDataTrackFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
